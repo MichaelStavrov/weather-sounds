@@ -1,0 +1,44 @@
+.title {
+  margin: 0;
+  font-size: 80px;
+  color: orangered;
+}
+
+.themes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap ;
+  gap: 32px;
+}
+
+.themeItem {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  border: 2px solid gainsboro;
+  outline: none;
+  cursor: pointer;
+  background: inherit;
+}
+
+.sun {
+  background: url('../../../assets/summer-bg.jpg');
+}
+
+.rain {
+  background: url('../../../assets/rainy-bg.jpg');
+}
+
+.snow {
+  background: url('../../../assets/winter-bg.jpg');
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
